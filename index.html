@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanillaaa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpeg" alt="Vanillaaa" class="logo">
+        <input type="text" id="busqueda" placeholder="Buscar..." onkeyup="filtrarProductos()">
+        <a href="carrito.html"><button>Ver Carrito</button></a>
+    </header>
+
+    <!-- Sección Quiénes Somos -->
+    <section class="quienes-somos">
+        <h2>¿Quiénes Somos?</h2>
+        <p>Bienvenidos a <strong>Vanillaaa</strong>En Vanillaaa, somos una empresa mexicana de moda ubicada en Álamo Temapache, Veracruz, comprometida con ofrecer ropa de calidad, diseño innovador y una amplia variedad de tallas, desde XXS hasta XXL. Creemos que la moda debe ser accesible para todas las personas, sin importar su tipo de cuerpo, y nos esforzamos por crear prendas que combinen estilo, comodidad y versatilidad.</p>
+        <p>Nuestra visión es convertirnos en una marca de referencia en la industria de la moda, ofreciendo ropa inclusiva y de alta calidad. Nos guiamos por valores como la excelencia, la accesibilidad y la satisfacción del cliente, asegurando que cada prenda refleje nuestra pasión por el diseño y el compromiso con nuestros clientes.
+            
+            En Vanilla, no solo vendemos ropa, sino que impulsamos una comunidad donde cada persona puede sentirse segura y auténtica con su estilo</p>
+        <img src="tienda.jpeg" alt="Nuestra tienda" class="imagen-quienes-somos">
+    </section>
+
+    <!-- Productos -->
+    <div class="productos">
+        <div class="producto" data-nombre="Camisa Blanca">
+            <img src="camisa_blanca.jpeg" alt="Camisa Blanca" class="producto-imagen">
+            <h3>Camisa Blanca</h3>
+            <p>$64 MXN</p>
+            <button onclick="agregarAlCarrito('Camisa Blanca', 64)">Agregar</button>
+        </div>
+        <div class="producto" data-nombre="Pantalón Negro">
+            <img src="pantalon_negro.jpeg" alt="Pantalón Negro" class="producto-imagen">
+            <h3>Pantalón Negro</h3>
+            <p>$178 MXN</p>
+            <button onclick="agregarAlCarrito('Pantalón Negro', 178)">Agregar</button>
+        </div>
+        <div class="producto" data-nombre="Falda">
+            <img src="falda.jpeg" alt="Falda" class="producto-imagen">
+            <h3>Falda</h3>
+            <p>$79 MXN</p>
+            <button onclick="agregarAlCarrito('Falda', 79)">Agregar</button>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <a href="https://www.tiktok.com/@tu_usuario" target="_blank">
+            <img src="qr_tiktok.jpeg" alt="QR Tiktok" width="100">
+        </a>
+        <a href="https://www.instagram.com/tu_usuario" target="_blank">
+            <img src="qr_instagram.jpeg" alt="QR Instagram" width="100">
+        </a>
+    </footer>
+    
+    <script src="carrito.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+.quienes-somos {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.quienes-somos h2 {
+    color: #ff6666;
+    font-size: 28px;
+}
+
+.quienes-somos p {
+    font-size: 18px;
+    color: #333;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.imagen-quienes-somos {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+    background-image: url('fondo.jpeg'); /* Puedes cambiar esta imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    margin: 0; /* Quitar margen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centrar la imagen horizontalmente */
+}
+
+header img {
+    max-width: 100%; /* Asegurarse de que la imagen ocupe todo el espacio disponible */
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+#busqueda {
+    padding: 8px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.producto {
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff4444;
+}
+
+
+/* Carrito de compras */
+#carrito {
+    list-style: none;
+    padding: 0;
+}
+
+#carrito li {
+    background: white;
+    margin: 5px auto;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+    background-color: #ffcccb;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ff4444;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #d32f2f;
+}
